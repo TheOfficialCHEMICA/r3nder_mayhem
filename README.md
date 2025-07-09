@@ -17,6 +17,7 @@
 | Microwave Presence    | Low-res movement detection via 2.4GHz         |
 | RFID Scrambler        | Jams 13.56 MHz readers with garbage           |
 | RF Mirror             | Repeats received packets like a repeater      |
+| Signal Viewer         | Simple on-screen RF monitor                   |
 
 ---
 
@@ -37,3 +38,4 @@ cd r3nder-portapack-apps
 bash install.sh
 cd ../../firmware
 make -j4
+```
