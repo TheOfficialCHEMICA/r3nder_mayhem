@@ -18,6 +18,8 @@
 | RFID Scrambler        | Jams 13.56 MHz readers with garbage           |
 | RF Mirror             | Repeats received packets like a repeater      |
 | Signal Viewer         | Simple on-screen RF monitor                   |
+| Emo Chart             | Displays emotional resonance frequency table  |
+| Emo Emitter           | Generates or sends resonance frequencies      |
 
 ---
 
