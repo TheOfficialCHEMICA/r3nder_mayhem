@@ -18,8 +18,8 @@ app_files=(
     app_r3nder_rfidnoise.cpp
     app_r3nder_rfmirror.cpp
     app_r3nder_signalviewer.cpp
-    app_r3nder_emochart.cpp
-    app_r3nder_emoemitter.cpp
+    app_r3nder_moodmatrix.cpp
+    app_r3nder_vibeprojector.cpp
 )
 
 for file in "${app_files[@]}"; do
@@ -45,8 +45,8 @@ if [ ! -f "$MENU_FILE" ]; then
             App_R3nderRFIDNoise
             App_R3nderRFMirror
             App_R3nderSignalViewer
-            App_R3nderEmoChart
-            App_R3nderEmoEmitter
+            App_R3nderMoodMatrix
+            App_R3nderVibeProjector
         )
         for class in "${class_names[@]}"; do
             echo "r3nder_menu.add(new ${class}());"
