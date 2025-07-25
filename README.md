@@ -18,6 +18,8 @@
 | RFID Scrambler        | Jams 13.56 MHz readers with garbage           |
 | RF Mirror             | Repeats received packets like a repeater      |
 | Signal Viewer         | Simple on-screen RF monitor                   |
+| Mood Matrix             | Displays emotional resonance frequency table  |
+| Vibe Projector           | Generates or sends resonance frequencies      |
 
 ---
 
