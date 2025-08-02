@@ -17,6 +17,12 @@
 | Microwave Presence    | Low-res movement detection via 2.4GHz         |
 | RFID Scrambler        | Jams 13.56 MHz readers with garbage           |
 | RF Mirror             | Repeats received packets like a repeater      |
+| Signal Viewer         | Simple on-screen RF monitor                   |
+| Emotional Resonance   | Generates mood-tuned RF frequencies           |
+
+The Emotional Resonance tool maps a numeric mood value to an RF carrier
+frequency. It relies on **libhackrf** to transmit a continuous wave that
+changes pitch as the mood value varies.
 
 ---
 
@@ -37,3 +43,4 @@ cd r3nder-portapack-apps
 bash install.sh
 cd ../../firmware
 make -j4
+```
