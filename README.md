@@ -18,12 +18,13 @@
 | RFID Scrambler        | Jams 13.56 MHz readers with garbage           |
 | RF Mirror             | Repeats received packets like a repeater      |
 | Signal Viewer         | Simple on-screen RF monitor                   |
+| Radar Imager          | FMCW range-time imaging with waterfall display |
 
 ---
 
 ## 🧠 Requirements
 
-- HackRF One + PortaPack H1/H2
+- HackRF One + PortaPack H2+
 - Mayhem Firmware installed
 - CMake, ARM GCC toolchain, Python (optional)
 - MicroSD card (for flashing)

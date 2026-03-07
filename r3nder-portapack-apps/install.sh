@@ -18,6 +18,7 @@ app_files=(
     app_r3nder_rfidnoise.cpp
     app_r3nder_rfmirror.cpp
     app_r3nder_signalviewer.cpp
+    app_r3nder_radarimager.cpp
 )
 
 for file in "${app_files[@]}"; do
@@ -43,6 +44,7 @@ if [ ! -f "$MENU_FILE" ]; then
             App_R3nderRFIDNoise
             App_R3nderRFMirror
             App_R3nderSignalViewer
+            App_R3nderRadarImager
         )
         for class in "${class_names[@]}"; do
             echo "r3nder_menu.add(new ${class}());"
